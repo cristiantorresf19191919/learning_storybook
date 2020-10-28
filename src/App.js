@@ -1,8 +1,14 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Button from './components/Button/Button';
+import {Learning} from './components/learning/Learning';
+import { CreateCustomHooks } from './components/learning/createCustomHooks';
+import { LearningTest } from './components/learning/LearningTest';
 
-function App() {
+
+
+/* function App() {
   return (
     <div className="App">
       <header className="App-header">
@@ -16,10 +22,19 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Learning React
         </a>
       </header>
     </div>
+  );
+} */
+function App() {
+  return (
+   <>
+{/*    <h1>test</h1>
+    <CreateCustomHooks />
+    <LearningTest>Probando tests</LearningTest> */}
+   </>
   );
 }
 
