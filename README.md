@@ -53,3 +53,10 @@ Learning storybook from scratch!
       },
 
 ]
+
+
+"emmet.includeLanguages": {
+
+        "vue-html": "html",
+        "javascript": "javascriptreact"
+    },
